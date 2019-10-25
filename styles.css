@@ -3,6 +3,9 @@ body{
     height:100% ;
 
 }
+img{
+    max-width: 100%;
+}
 #cover{
     background: #222 url('img/stars.jpg') center center no-repeat;
     background-size: cover;
@@ -15,4 +18,23 @@ body{
 }
 #cover-caption{
     width: 100%;
+}
+.section-content{
+    padding: 1rem 0; 
+
+} 
+#about{
+    background: url("img/girlincar.jpg") center center no-repeat;
+    background-size: cover;
+}
+.about-text{
+    background:rgba(0,0,0, 0.8);
+    color: white;
+    padding: 30px;
+}
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem;
 }
